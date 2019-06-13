@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+        <script src="script/script.js" type="text/javascript" defer></script>
+        <link rel="stylesheet" href="css/styling.css" type="text/css">
+    </head>
+
+    <body>
+        
+    <button type="button" onclick="display()">Click Here to Register</button>
+        <div class="overlay" id="over">
+            
+            
+                <div class="container" id="container">
+                        <span id="closebtn" onclick="close_display()">&#215</span>
+                        <h3>Register</h3>
+                        <form action="action-page.php" class="formed">
+        
+                            <input type="text" name="Firstname" placeholder="Firstname">
+        
+                            <input type="text" name="Lastname" placeholder="Lastname">
+        
+                            <input type="email" name="Email" placeholder="Email">
+                            <br>
+                            <input type="radio" name="GENDER" value="Male">Male
+                            <input type="radio" id="gen" name="GENDER" value="Female">Female
+                            <br>
+                            <input type="password" name="Password" placeholder="Password">
+                            <input type="password" name="Conf-Password" placeholder="Comfrim Password">
+                            <br>
+                            <button type="submit" name="Register">Register</button>
+        
+                        </form>
+                        
+        
+                </div>
+        </div>
+         <a href="Gallery.html" target="_blank">Gallery</a>
+        
+    </body>
+        
+</html>
